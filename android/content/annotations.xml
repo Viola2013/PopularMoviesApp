@@ -1,0 +1,5 @@
+<root>
+    <item name='android.content.ContextWrapper android.content.Context getApplicationContext()'>
+        <annotation name='android.support.annotation.NonNull' />
+    </item>
+</root>

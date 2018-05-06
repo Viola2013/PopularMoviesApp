@@ -13,7 +13,7 @@ import com.squareup.picasso.Picasso;
  * Created by Mervi on 2.5.2018.
  */
 
-class ImageAdapter extends BaseAdapter {
+class PosterAdapter extends BaseAdapter {
     private final Context mContext;
     private final Movie[] mMovies;
 
@@ -23,7 +23,7 @@ class ImageAdapter extends BaseAdapter {
      * @param context Application context
      * @param movies  Movie array
      */
-    public ImageAdapter(Context context, Movie[] movies) {
+    public PosterAdapter(Context context, Movie[] movies) {
         mContext = context;
         mMovies = movies;
     }

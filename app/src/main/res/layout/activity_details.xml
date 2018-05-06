@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.viola2013.popularmoviesapp.MovieDetailsActivity">
+    tools:context="com.viola2013.popularmoviesapp.DetailsActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -22,7 +22,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="3"
             android:contentDescription="@string/description_movie_poster"
-            android:src="@drawable/example_movie_poster" />
+            />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -31,54 +31,37 @@
             android:layout_weight="2"
             android:orientation="vertical"
             android:paddingEnd="2dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="2dp"
             android:paddingStart="5dp">
 
             <TextView
-                android:id="@+id/textview_release_date_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/heading_release_date"
-                android:textSize="@dimen/abc_text_size_medium_material"
-                tools:ignore="PrivateResource" />
+                android:text="@string/heading_release_date"/>
 
             <TextView
                 android:id="@+id/textview_release_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingRight="2dp"
                 android:paddingEnd="2dp"
-                android:text="@string/example_release_date"
-                android:textSize="@dimen/abc_text_size_large_material"
                 android:paddingStart="10dp"
-                tools:ignore="PrivateResource" />
+                />
 
             <TextView
-                android:id="@+id/textview_vote_average_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
-                android:text="@string/heading_vote_average"
-                android:textSize="@dimen/abc_text_size_medium_material"
-                tools:ignore="PrivateResource" />
+               />
 
             <TextView
                 android:id="@+id/textview_vote_average"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingRight="2dp"
                 android:paddingEnd="2dp"
-                android:text="@string/example_vote_average"
-                android:textSize="@dimen/abc_text_size_large_material"
                 android:paddingStart="10dp"
-                tools:ignore="PrivateResource" />
+               />
         </LinearLayout>
 
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -92,8 +75,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="5dp"
             android:paddingTop="10dp"
-            android:text="@string/example_original_title"
-            android:textSize="@dimen/abc_text_size_headline_material" />
+            />
 
         <ScrollView
             android:layout_width="fill_parent"
@@ -102,8 +84,8 @@
             <TextView
                 android:id="@+id/textview_overview"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/example_overview" />
+                android:layout_height="wrap_content"/>
+
 
         </ScrollView>
     </LinearLayout>

@@ -16,17 +16,18 @@ import java.text.ParseException;
 
 /**
  * Created by Mervi on 2.5.2018.
+ * Based on code from http://stackoverflow.com/a/11093572
  */
-public class MovieDetailsActivity extends AppCompatActivity {
+public class DetailsActivity extends AppCompatActivity {
     /**
-     * For logging purposes
+     * To log any issue that might be worth logging
      */
-    private final String LOG_TAG = MovieDetailsActivity.class.getSimpleName();
+    private final String LOG_TAG = DetailsActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_movie_details);
+        setContentView(R.layout.activity_details);
 
         TextView tvOriginalTitle = findViewById(R.id.textview_original_title);
         ImageView ivPoster = findViewById(R.id.imageview_poster);

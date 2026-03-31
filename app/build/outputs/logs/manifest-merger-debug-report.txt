@@ -1,0 +1,480 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3d6680207be470a41e45988d7b19bcff\transformed\jetified-preference-ktx-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c6014dd512ddeceec23915a7e35674ef\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\mervi\.gradle\caches\9.4.1\transforms\121f2a427876c973da0074cb79d80478\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\b3a54028f14a067b43eb531293a34093\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0dbffb72c894d5e6203e82753395231f\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\5fbd310175a7fd6c9fabbfc18ebad7f7\transformed\jetified-coil-compose-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\eb0baecf006d9226273e0d54ef6f5650\transformed\jetified-coil-compose-base-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\1ff45265d815ed109e55b534b9bdfca7\transformed\jetified-coil-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\af4dbe707b57e27212156327fdc1a5e6\transformed\jetified-coil-base-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\12f94a3c84700cb31ba959cb3b6a5fe8\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e67ae6570c1ac360ca82f8231570fc77\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0293ac83f057e687827296352b71c89d\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\mervi\.gradle\caches\9.4.1\transforms\00b912453496204df06df69ed49c420d\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9820d353664cd9f3cd10eccbbae458c3\transformed\jetified-activity-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\41e10fa6debdbed66dc97ed32a913042\transformed\jetified-material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e846ee07e701d8874e37b43f4dd33277\transformed\jetified-ui-tooling\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.7.8] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4b099aa6d20210a270c72f141f07a14\transformed\jetified-material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.8] C:\Users\mervi\.gradle\caches\9.4.1\transforms\bed75f7ef835642e2b8ec0ed06b729d9\transformed\jetified-material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0d883a699a6611b11ee748372eceb566\transformed\jetified-ui-tooling-data\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c4d8e2d2c8ebeb2dee44cdfe15581502\transformed\jetified-ui-tooling-preview\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\2d9b62cbafae8fd6c641456aeac1ea0f\transformed\jetified-foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9f4bcc72105df3d70805d759587af472\transformed\jetified-foundation-layout\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\8debe852de16322419798db492c34012\transformed\jetified-animation-core\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\cace2b9fe51b434206babcdd920e8025\transformed\jetified-animation\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a8230a3702e0e5a840200db779313f59\transformed\jetified-ui-util\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\87c8005fafe1e17a632313155ffb7cc3\transformed\jetified-ui-unit\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ec381dda0f79f42ec71d11cbed7ea1a7\transformed\jetified-ui-text\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\39d0919cb92a046fc58dc7db08f20569\transformed\jetified-ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\40b0eeb77c980974bdddc227389b92f1\transformed\jetified-ui-geometry\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\700c2a901e07ab6f70a009873f55f7ff\transformed\jetified-ui-test-manifest-1.9.2\AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.activity:activity:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\aed03b1d73ec67901e0b854b76e4430e\transformed\jetified-activity-1.13.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\facdc7c0dfea4f12d68c498a08353234\transformed\jetified-activity-compose-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\cf64f078f3107bcf39956bc77582ea67\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\080cc5489bf925405cf942398d7828c3\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3a29b3245eb54b4cbd48fac4b74de968\transformed\jetified-emoji2-views-helper-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\d33573db484b8b6ba3b01c5f346bb779\transformed\lifecycle-livedata-2.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3e56c51c61c5c7bfb9db0218ef5024ba\transformed\jetified-navigationevent\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\421b90df1f2f12a84f570d9ec2b947ed\transformed\jetified-navigationevent-compose\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a235e674b6d52d82c296ba55103f076f\transformed\jetified-runtime-annotation\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\7d06fffe3b60bda2e506cb26f7a13e9c\transformed\jetified-savedstate-ktx-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9f610fb01247225a24fae73411ff12a6\transformed\jetified-savedstate\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\b1ee788d6300b5eb36b2cbdeb5cbdd04\transformed\jetified-savedstate-compose\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\201580082af2d840ed7d7c3b108a799d\transformed\jetified-runtime\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\921dfcfd3ef2cc306a9f67766820ad4f\transformed\jetified-runtime-saveable\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\82eadbf89093fb762faf006e9efe4d93\transformed\jetified-lifecycle-runtime-compose\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\24504845dcad1ec904ea17edca33c088\transformed\jetified-lifecycle-runtime\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3be1552f64ccadae613a194c3cd5a9b1\transformed\jetified-lifecycle-viewmodel-savedstate\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\95f188dbd17f2b5f8f08776780a7d0e1\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\26dc5d6fd79d6c939642476716a81000\transformed\jetified-core-ktx-1.18.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\f3003c9ae79f5e1fa51b21a0e4822d1a\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a10d5da2f10f02344abca2f8eac70c14\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\abb47fb17f75c028389b37f8128796f3\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a4fc67c61602d468aac387d6e18f9098\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c99774ab6c9bf3b2c2ffa9f9b57444f3\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\91402738fdfb7f5eb9bb836ce2356b55\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\7ed557e7b131d0b330e857a8d0c35ca2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\f8a20779aabb9c1069fe04ae48d83ef0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c72f55db98248f7d07b32c509a3614a5\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e52ba42afb638df8b887a34ad8d5e22c\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9fffc7b5775f95c2214a4ed2ef0b98a5\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\4d4babc03281683b11fdc08a73ce89c8\transformed\jetified-graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ca8a5c0b14bc3ebf223f88ebbabb662d\transformed\lifecycle-viewmodel-2.10.0\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\aceccc4eed8891498de86c2b24246d20\transformed\jetified-lifecycle-viewmodel\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\59b48230296e82fe2ff944a43a29da23\transformed\jetified-lifecycle-livedata-core-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\4e277a46d1eeb43e9a4b9d8f7d1f89c0\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\87a142b82101d3979ef5fdc886765daa\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e6179597874cb01b229e02251aa10e3a\transformed\jetified-lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a3a02a1fc77da876ab0e47ba88b26d3b\transformed\jetified-lifecycle-viewmodel-compose\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a9c6797119401120d329f097ddf10865\transformed\jetified-accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.8] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e799ca6d99879f00fc49d7e4ae9c780d\transformed\jetified-material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\be83abe0e2802f31c064fbb46af92b19\transformed\jetified-ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9d7aa5f94bfe05287ca3830295be6abe\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\d850e7736539818b149618e6cb8857f3\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mervi\.gradle\caches\9.4.1\transforms\25ff4ae4c8bc21d797be9a4e7e970288\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ea4e182458d775972ef5f46f43bca440\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\8760bb6286b30b9b86b2b7620b371854\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\fb018b17e124a7250d25d09d17105be8\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4a7f71cc1e7687e4a0804261d113b9b\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\311795fd63d34f384614b505200138f0\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e092fdff35580861c5acb7ddde4d05f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\d8958572bc7e3de21177f85743224ec8\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\mervi\.gradle\caches\9.4.1\transforms\35c8dfa773e25fb94b7b571c0625b78c\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:5:22-76
+application
+ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:7:5-25:19
+INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:7:5-25:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\b3a54028f14a067b43eb531293a34093\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\b3a54028f14a067b43eb531293a34093\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0dbffb72c894d5e6203e82753395231f\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0dbffb72c894d5e6203e82753395231f\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e846ee07e701d8874e37b43f4dd33277\transformed\jetified-ui-tooling\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e846ee07e701d8874e37b43f4dd33277\transformed\jetified-ui-tooling\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\700c2a901e07ab6f70a009873f55f7ff\transformed\jetified-ui-test-manifest-1.9.2\AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\700c2a901e07ab6f70a009873f55f7ff\transformed\jetified-ui-test-manifest-1.9.2\AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:28:5-89
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mervi\.gradle\caches\9.4.1\transforms\25ff4ae4c8bc21d797be9a4e7e970288\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mervi\.gradle\caches\9.4.1\transforms\25ff4ae4c8bc21d797be9a4e7e970288\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4a7f71cc1e7687e4a0804261d113b9b\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4a7f71cc1e7687e4a0804261d113b9b\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e092fdff35580861c5acb7ddde4d05f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e092fdff35580861c5acb7ddde4d05f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:11:9-48
+	android:icon
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:13:9-54
+activity#com.viola2013.popularmoviesapp.MainActivity
+ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:14:9-21:20
+	android:exported
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.viola2013.popularmoviesapp.DetailsActivity
+ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:22:9-24:58
+	android:parentActivityName
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:24:13-55
+	android:name
+		ADDED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml:23:13-44
+uses-sdk
+INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3d6680207be470a41e45988d7b19bcff\transformed\jetified-preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3d6680207be470a41e45988d7b19bcff\transformed\jetified-preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c6014dd512ddeceec23915a7e35674ef\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c6014dd512ddeceec23915a7e35674ef\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\mervi\.gradle\caches\9.4.1\transforms\121f2a427876c973da0074cb79d80478\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\mervi\.gradle\caches\9.4.1\transforms\121f2a427876c973da0074cb79d80478\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\b3a54028f14a067b43eb531293a34093\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\b3a54028f14a067b43eb531293a34093\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0dbffb72c894d5e6203e82753395231f\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0dbffb72c894d5e6203e82753395231f\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\5fbd310175a7fd6c9fabbfc18ebad7f7\transformed\jetified-coil-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\5fbd310175a7fd6c9fabbfc18ebad7f7\transformed\jetified-coil-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\eb0baecf006d9226273e0d54ef6f5650\transformed\jetified-coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\eb0baecf006d9226273e0d54ef6f5650\transformed\jetified-coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\1ff45265d815ed109e55b534b9bdfca7\transformed\jetified-coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\1ff45265d815ed109e55b534b9bdfca7\transformed\jetified-coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\af4dbe707b57e27212156327fdc1a5e6\transformed\jetified-coil-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\af4dbe707b57e27212156327fdc1a5e6\transformed\jetified-coil-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\12f94a3c84700cb31ba959cb3b6a5fe8\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\12f94a3c84700cb31ba959cb3b6a5fe8\transformed\jetified-appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e67ae6570c1ac360ca82f8231570fc77\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e67ae6570c1ac360ca82f8231570fc77\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0293ac83f057e687827296352b71c89d\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0293ac83f057e687827296352b71c89d\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\mervi\.gradle\caches\9.4.1\transforms\00b912453496204df06df69ed49c420d\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\mervi\.gradle\caches\9.4.1\transforms\00b912453496204df06df69ed49c420d\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9820d353664cd9f3cd10eccbbae458c3\transformed\jetified-activity-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9820d353664cd9f3cd10eccbbae458c3\transformed\jetified-activity-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\41e10fa6debdbed66dc97ed32a913042\transformed\jetified-material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\41e10fa6debdbed66dc97ed32a913042\transformed\jetified-material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e846ee07e701d8874e37b43f4dd33277\transformed\jetified-ui-tooling\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e846ee07e701d8874e37b43f4dd33277\transformed\jetified-ui-tooling\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.8] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4b099aa6d20210a270c72f141f07a14\transformed\jetified-material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.8] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4b099aa6d20210a270c72f141f07a14\transformed\jetified-material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.8] C:\Users\mervi\.gradle\caches\9.4.1\transforms\bed75f7ef835642e2b8ec0ed06b729d9\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.8] C:\Users\mervi\.gradle\caches\9.4.1\transforms\bed75f7ef835642e2b8ec0ed06b729d9\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0d883a699a6611b11ee748372eceb566\transformed\jetified-ui-tooling-data\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\0d883a699a6611b11ee748372eceb566\transformed\jetified-ui-tooling-data\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c4d8e2d2c8ebeb2dee44cdfe15581502\transformed\jetified-ui-tooling-preview\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c4d8e2d2c8ebeb2dee44cdfe15581502\transformed\jetified-ui-tooling-preview\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\2d9b62cbafae8fd6c641456aeac1ea0f\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\2d9b62cbafae8fd6c641456aeac1ea0f\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9f4bcc72105df3d70805d759587af472\transformed\jetified-foundation-layout\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9f4bcc72105df3d70805d759587af472\transformed\jetified-foundation-layout\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\8debe852de16322419798db492c34012\transformed\jetified-animation-core\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\8debe852de16322419798db492c34012\transformed\jetified-animation-core\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\cace2b9fe51b434206babcdd920e8025\transformed\jetified-animation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\cace2b9fe51b434206babcdd920e8025\transformed\jetified-animation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a8230a3702e0e5a840200db779313f59\transformed\jetified-ui-util\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a8230a3702e0e5a840200db779313f59\transformed\jetified-ui-util\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\87c8005fafe1e17a632313155ffb7cc3\transformed\jetified-ui-unit\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\87c8005fafe1e17a632313155ffb7cc3\transformed\jetified-ui-unit\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ec381dda0f79f42ec71d11cbed7ea1a7\transformed\jetified-ui-text\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ec381dda0f79f42ec71d11cbed7ea1a7\transformed\jetified-ui-text\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\39d0919cb92a046fc58dc7db08f20569\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\39d0919cb92a046fc58dc7db08f20569\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\40b0eeb77c980974bdddc227389b92f1\transformed\jetified-ui-geometry\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\40b0eeb77c980974bdddc227389b92f1\transformed\jetified-ui-geometry\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\700c2a901e07ab6f70a009873f55f7ff\transformed\jetified-ui-test-manifest-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\700c2a901e07ab6f70a009873f55f7ff\transformed\jetified-ui-test-manifest-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\aed03b1d73ec67901e0b854b76e4430e\transformed\jetified-activity-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\aed03b1d73ec67901e0b854b76e4430e\transformed\jetified-activity-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\facdc7c0dfea4f12d68c498a08353234\transformed\jetified-activity-compose-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.13.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\facdc7c0dfea4f12d68c498a08353234\transformed\jetified-activity-compose-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\cf64f078f3107bcf39956bc77582ea67\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\cf64f078f3107bcf39956bc77582ea67\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\080cc5489bf925405cf942398d7828c3\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\080cc5489bf925405cf942398d7828c3\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3a29b3245eb54b4cbd48fac4b74de968\transformed\jetified-emoji2-views-helper-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3a29b3245eb54b4cbd48fac4b74de968\transformed\jetified-emoji2-views-helper-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\d33573db484b8b6ba3b01c5f346bb779\transformed\lifecycle-livedata-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\d33573db484b8b6ba3b01c5f346bb779\transformed\lifecycle-livedata-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3e56c51c61c5c7bfb9db0218ef5024ba\transformed\jetified-navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-android:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3e56c51c61c5c7bfb9db0218ef5024ba\transformed\jetified-navigationevent\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\421b90df1f2f12a84f570d9ec2b947ed\transformed\jetified-navigationevent-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigationevent:navigationevent-compose-android:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\421b90df1f2f12a84f570d9ec2b947ed\transformed\jetified-navigationevent-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a235e674b6d52d82c296ba55103f076f\transformed\jetified-runtime-annotation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-annotation-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a235e674b6d52d82c296ba55103f076f\transformed\jetified-runtime-annotation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\7d06fffe3b60bda2e506cb26f7a13e9c\transformed\jetified-savedstate-ktx-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\7d06fffe3b60bda2e506cb26f7a13e9c\transformed\jetified-savedstate-ktx-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9f610fb01247225a24fae73411ff12a6\transformed\jetified-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9f610fb01247225a24fae73411ff12a6\transformed\jetified-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\b1ee788d6300b5eb36b2cbdeb5cbdd04\transformed\jetified-savedstate-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\b1ee788d6300b5eb36b2cbdeb5cbdd04\transformed\jetified-savedstate-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\201580082af2d840ed7d7c3b108a799d\transformed\jetified-runtime\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\201580082af2d840ed7d7c3b108a799d\transformed\jetified-runtime\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\921dfcfd3ef2cc306a9f67766820ad4f\transformed\jetified-runtime-saveable\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\921dfcfd3ef2cc306a9f67766820ad4f\transformed\jetified-runtime-saveable\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\82eadbf89093fb762faf006e9efe4d93\transformed\jetified-lifecycle-runtime-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\82eadbf89093fb762faf006e9efe4d93\transformed\jetified-lifecycle-runtime-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\24504845dcad1ec904ea17edca33c088\transformed\jetified-lifecycle-runtime\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\24504845dcad1ec904ea17edca33c088\transformed\jetified-lifecycle-runtime\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3be1552f64ccadae613a194c3cd5a9b1\transformed\jetified-lifecycle-viewmodel-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\3be1552f64ccadae613a194c3cd5a9b1\transformed\jetified-lifecycle-viewmodel-savedstate\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\95f188dbd17f2b5f8f08776780a7d0e1\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\95f188dbd17f2b5f8f08776780a7d0e1\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\26dc5d6fd79d6c939642476716a81000\transformed\jetified-core-ktx-1.18.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\26dc5d6fd79d6c939642476716a81000\transformed\jetified-core-ktx-1.18.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\f3003c9ae79f5e1fa51b21a0e4822d1a\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\f3003c9ae79f5e1fa51b21a0e4822d1a\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a10d5da2f10f02344abca2f8eac70c14\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a10d5da2f10f02344abca2f8eac70c14\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\abb47fb17f75c028389b37f8128796f3\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\abb47fb17f75c028389b37f8128796f3\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a4fc67c61602d468aac387d6e18f9098\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a4fc67c61602d468aac387d6e18f9098\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c99774ab6c9bf3b2c2ffa9f9b57444f3\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c99774ab6c9bf3b2c2ffa9f9b57444f3\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\91402738fdfb7f5eb9bb836ce2356b55\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\91402738fdfb7f5eb9bb836ce2356b55\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\7ed557e7b131d0b330e857a8d0c35ca2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\7ed557e7b131d0b330e857a8d0c35ca2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\f8a20779aabb9c1069fe04ae48d83ef0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\f8a20779aabb9c1069fe04ae48d83ef0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c72f55db98248f7d07b32c509a3614a5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\c72f55db98248f7d07b32c509a3614a5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e52ba42afb638df8b887a34ad8d5e22c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e52ba42afb638df8b887a34ad8d5e22c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9fffc7b5775f95c2214a4ed2ef0b98a5\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9fffc7b5775f95c2214a4ed2ef0b98a5\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\4d4babc03281683b11fdc08a73ce89c8\transformed\jetified-graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\4d4babc03281683b11fdc08a73ce89c8\transformed\jetified-graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ca8a5c0b14bc3ebf223f88ebbabb662d\transformed\lifecycle-viewmodel-2.10.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ca8a5c0b14bc3ebf223f88ebbabb662d\transformed\lifecycle-viewmodel-2.10.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\aceccc4eed8891498de86c2b24246d20\transformed\jetified-lifecycle-viewmodel\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\aceccc4eed8891498de86c2b24246d20\transformed\jetified-lifecycle-viewmodel\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\59b48230296e82fe2ff944a43a29da23\transformed\jetified-lifecycle-livedata-core-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\59b48230296e82fe2ff944a43a29da23\transformed\jetified-lifecycle-livedata-core-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\4e277a46d1eeb43e9a4b9d8f7d1f89c0\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\4e277a46d1eeb43e9a4b9d8f7d1f89c0\transformed\lifecycle-livedata-core-2.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\87a142b82101d3979ef5fdc886765daa\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\87a142b82101d3979ef5fdc886765daa\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e6179597874cb01b229e02251aa10e3a\transformed\jetified-lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e6179597874cb01b229e02251aa10e3a\transformed\jetified-lifecycle-viewmodel-ktx-2.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a3a02a1fc77da876ab0e47ba88b26d3b\transformed\jetified-lifecycle-viewmodel-compose\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a3a02a1fc77da876ab0e47ba88b26d3b\transformed\jetified-lifecycle-viewmodel-compose\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a9c6797119401120d329f097ddf10865\transformed\jetified-accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\a9c6797119401120d329f097ddf10865\transformed\jetified-accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.8] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e799ca6d99879f00fc49d7e4ae9c780d\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.8] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e799ca6d99879f00fc49d7e4ae9c780d\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\be83abe0e2802f31c064fbb46af92b19\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\be83abe0e2802f31c064fbb46af92b19\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9d7aa5f94bfe05287ca3830295be6abe\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\9d7aa5f94bfe05287ca3830295be6abe\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\d850e7736539818b149618e6cb8857f3\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\d850e7736539818b149618e6cb8857f3\transformed\jetified-core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mervi\.gradle\caches\9.4.1\transforms\25ff4ae4c8bc21d797be9a4e7e970288\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mervi\.gradle\caches\9.4.1\transforms\25ff4ae4c8bc21d797be9a4e7e970288\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ea4e182458d775972ef5f46f43bca440\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ea4e182458d775972ef5f46f43bca440\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\8760bb6286b30b9b86b2b7620b371854\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\8760bb6286b30b9b86b2b7620b371854\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\fb018b17e124a7250d25d09d17105be8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\fb018b17e124a7250d25d09d17105be8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4a7f71cc1e7687e4a0804261d113b9b\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4a7f71cc1e7687e4a0804261d113b9b\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\311795fd63d34f384614b505200138f0\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\311795fd63d34f384614b505200138f0\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e092fdff35580861c5acb7ddde4d05f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e092fdff35580861c5acb7ddde4d05f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\d8958572bc7e3de21177f85743224ec8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\d8958572bc7e3de21177f85743224ec8\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\mervi\.gradle\caches\9.4.1\transforms\35c8dfa773e25fb94b7b571c0625b78c\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\mervi\.gradle\caches\9.4.1\transforms\35c8dfa773e25fb94b7b571c0625b78c\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\src\main\AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e846ee07e701d8874e37b43f4dd33277\transformed\jetified-ui-tooling\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e846ee07e701d8874e37b43f4dd33277\transformed\jetified-ui-tooling\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e846ee07e701d8874e37b43f4dd33277\transformed\jetified-ui-tooling\AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\700c2a901e07ab6f70a009873f55f7ff\transformed\jetified-ui-test-manifest-1.9.2\AndroidManifest.xml:23:9-26:79
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\700c2a901e07ab6f70a009873f55f7ff\transformed\jetified-ui-test-manifest-1.9.2\AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\700c2a901e07ab6f70a009873f55f7ff\transformed\jetified-ui-test-manifest-1.9.2\AndroidManifest.xml:26:13-76
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\mervi\.gradle\caches\9.4.1\transforms\700c2a901e07ab6f70a009873f55f7ff\transformed\jetified-ui-test-manifest-1.9.2\AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4a7f71cc1e7687e4a0804261d113b9b\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\mervi\.gradle\caches\9.4.1\transforms\e4a7f71cc1e7687e4a0804261d113b9b\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\490c5335f2f48c0e8b3f60ed1a7e2e5b\transformed\jetified-emoji2-1.4.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\52c1611c36daf41de065477b5747ed13\transformed\jetified-lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\72866024bdc4b35e5f1eaf72f46e78a3\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+permission#com.viola2013.popularmoviesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+uses-permission#com.viola2013.popularmoviesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.18.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\517e0cf409d2008bac60a3f933f18505\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mervi\.gradle\caches\9.4.1\transforms\25ff4ae4c8bc21d797be9a4e7e970288\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mervi\.gradle\caches\9.4.1\transforms\25ff4ae4c8bc21d797be9a4e7e970288\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mervi\.gradle\caches\9.4.1\transforms\25ff4ae4c8bc21d797be9a4e7e970288\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mervi\.gradle\caches\9.4.1\transforms\25ff4ae4c8bc21d797be9a4e7e970288\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\mervi\.gradle\caches\9.4.1\transforms\ff433ce8e10a7ed87ee281fa5549b239\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

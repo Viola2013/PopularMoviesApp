@@ -1,27 +1,51 @@
-Android Nanodegree | Project 1 &2 Popular movies app stage 1 and 2. 
+# Popular Movies App
 
-Most of us can relate to kicking back on the couch and enjoying a movie with friends and family. In this project, you’ll build an app to allow users to discover the most popular movies playing. We will split the development of this app in two stages. First, let's talk about stage 1.
+**Android Nanodegree | Project 1 & 2**
 
+Welcome to the **Popular Movies App**! This application allows users to discover the most popular and highest-rated movies playing, fetching data directly from The Movie Database (TMDb) API.
 
+## 🚀 Recent Modernization & Changes
 
-This app will:
+The project has recently undergone significant updates to align with modern Android development standards:
 
-Present the user with a grid arrangement of movie posters upon launch.
-Allow your user to change sort order via a setting:
-The sort order can be by most popular or by highest-rated
-Allow the user to tap on a movie poster and transition to a details screen with additional information such as:
-original title
-movie poster image thumbnail
-A plot synopsis (called overview in the api)
-user rating (called vote_average in the api)
-release date
+- **Kotlin Migration**: The entire application has been migrated from Java to Kotlin for better safety, conciseness, and modern language features.
+- **Coroutines & Jetpack**: Replaced legacy `AsyncTask` with **Kotlin Coroutines** and **Lifecycle-aware components** for robust background data fetching.
+- **Improved UI/UX**:
+    - Added a **Welcome & Usage View** on the main screen to explain the app's purpose and how to navigate it.
+    - Enhanced layout responsiveness using `LinearLayout` and optimized `GridView` configurations.
+- **Quality Assurance**: Introduced a **Smoke Unit Test Set** (using JUnit 4) to verify core data models, poster path generation, and formatting logic.
+- **Updated Dependencies**: Modernized the build configuration with stable versions of `androidx`, `material`, `picasso`, and `kotlin-parcelize`.
 
+## ✨ Features
 
-You’ll allow users to view and play trailers ( either in the youtube app or a web browser).
-You’ll allow users to read reviews of a selected movie.
-You’ll also allow users to mark a movie as a favorite in the details view by tapping a button(star).
-You'll create a database to store the names and ids of the user's favorite movies (and optionally, the rest of the information needed to display their favorites collection while offline).
-You’ll modify the existing sorting criteria for the main view to include an additional pivot to show their favorites collection.
-Recall from Stage 1, you built a UI that presented the user with a grid of movie posters, allowed users to change sort order, and presented a screen with additional information on the movie selected by the user:
+### Stage 1: Core Experience
+- **Movie Grid**: Displays a grid arrangement of movie posters upon launch.
+- **Sorting Options**: Users can toggle between "Most Popular" and "Highest Rated" via the action bar menu.
+- **Details Screen**: Tapping a poster opens a detailed view including:
+    - Original Title
+    - High-quality Movie Poster thumbnail
+    - Plot Synopsis (Overview)
+    - User Rating (Vote Average)
+    - Release Date (Localized format)
 
+### Stage 2: Enhanced Functionality
+- **Trailers**: View and play movie trailers.
+- **Reviews**: Read user reviews for selected movies.
+- **Favorites**: Mark movies as favorites and store them locally for offline access.
+- **Favorite Filter**: A new sorting pivot to view your collection of favorite movies.
 
+## 🛠️ Technical Implementation
+- **Data Source**: [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api)
+- **Image Loading**: [Picasso](https://square.github.io/picasso/) for efficient image caching and display.
+- **Data Persistence**: `Parcelable` implementation via `@Parcelize` for seamless data transfer between activities.
+- **Testing**: Local unit tests to ensure data integrity.
+
+## 📖 What I Learned
+- Fetching and parsing JSON data from a REST API.
+- implementing custom `Adapters` for `GridView` and `ListView`.
+- Managing background tasks with **Coroutines** and `lifecycleScope`.
+- Designing responsive UIs that adapt to different screen sizes.
+- Writing unit tests to ensure application stability.
+
+---
+*Originally developed as part of the Android Nanodegree (Updated 2024).*

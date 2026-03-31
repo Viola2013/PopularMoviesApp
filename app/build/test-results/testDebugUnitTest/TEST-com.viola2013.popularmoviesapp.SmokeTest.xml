@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.viola2013.popularmoviesapp.SmokeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-03-31T10:24:21.678Z" hostname="MERVIN-OMA" time="0.038">
+  <properties/>
+  <testcase name="movie_defaultValues_areCorrect" classname="com.viola2013.popularmoviesapp.SmokeTest" time="0.014"/>
+  <testcase name="movie_dataModel_isCorrect" classname="com.viola2013.popularmoviesapp.SmokeTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

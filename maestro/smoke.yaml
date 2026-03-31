@@ -1,0 +1,5 @@
+appId: com.viola2013.popularmoviesapp
+---
+- launchApp
+- assertVisible: "PopularMoviesApp"
+- assertVisible: "VIEW MOVIES"

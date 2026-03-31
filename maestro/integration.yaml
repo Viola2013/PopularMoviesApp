@@ -1,0 +1,9 @@
+appId: com.viola2013.popularmoviesapp
+---
+- launchApp
+- tapOn: "VIEW POPULAR MOVIES"
+- assertVisible:
+    id: ".*" # Checking if any movie items appear, might need to be more specific if I had resource IDs for items
+- tapOn:
+    index: 0 # Tap the first movie in the grid
+- assertVisible: "Release Date:"

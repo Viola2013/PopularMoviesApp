@@ -107,8 +107,7 @@ class FetchMovieAsyncTask extends AsyncTask<String, Void, Movie[]> {
             // Make sense of the JSON data
             return getMoviesDataFromJson(moviesJsonStr);
         } catch (JSONException e) {
-            Log.e(LOG_TAG, e.getMessage(), e);
-            e.printStackTrace();
+            Log.e(LOG_TAG, "Error parsing JSON data: " + e.getMessage(), e);
         }
 
         return null;
@@ -119,7 +118,6 @@ class FetchMovieAsyncTask extends AsyncTask<String, Void, Movie[]> {
      *
      * @param moviesJsonStr JSON string to be traversed
      * @return Array of Movie objects
-     * @throws JSONException
      */
     private Movie[] getMoviesDataFromJson(String moviesJsonStr) throws JSONException {
         // JSON tags
@@ -157,7 +155,7 @@ class FetchMovieAsyncTask extends AsyncTask<String, Void, Movie[]> {
     }
 
     /**
-     * Creates and returns an URL.
+     * Creates and returns a URL.
      *
      * @param parameters Parameters to be used in the API call
      * @return URL formatted with parameters for the API

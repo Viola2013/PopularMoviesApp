@@ -1,0 +1,15 @@
+appId: com.viola2013.popularmoviesapp
+---
+- launchApp
+- assertVisible: "Popular Movies App"
+- tapOn: "View Popular Movies"
+- waitVisible: "About"
+- tapOn: "About"
+- assertVisible: "Usage:"
+- tapOn: "OK"
+- tapOn: "Sort"
+- tapOn:
+    index: 0
+- assertVisible: "Release Date:"
+- back
+- assertVisible: "Popular Movies App"

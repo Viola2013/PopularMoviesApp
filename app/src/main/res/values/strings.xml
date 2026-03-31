@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Popular Movies App</string>
+    <string name="app_description">Welcome to Popular Movies App! Discover the most popular and highest-rated movies from The Movie Database (TMDb).</string>
+    <string name="app_usage">Usage:\n• Browse the grid to see movie posters.\n• Tap a movie for more details.\n• Use the menu to sort by popularity or ratings.</string>
+    <string name="view_movies_button">View Popular Movies</string>
+    <string name="about_button">About</string>
+    <string name="vote_favorite">Mark as Favorite</string>
+    <string name="unvote_favorite">Remove from Favorites</string>
+    <string name="favorite_added">Added to Favorites!</string>
+    <string name="favorite_removed">Removed from Favorites.</string>
+    <string name="parcel_movie">movie</string>
+    <string name="error_need_internet">Please check your internet connection.</string>
+    <string name="tmdb_sort_pop_desc">popularity.desc</string>
+    <string name="tmdb_sort_vote_avg_desc">vote_average.desc</string>
+    <string name="pref_sort_method_key">sort_method</string>
+    <string name="pref_sort_pop_desc_key">pop_desc</string>
+    <string name="pref_sort_vote_avg_desc_key">vote_avg_desc</string>
+    <string name="description_movie_poster">Movie poster</string>
+    <string name="heading_release_date">Release Date:</string>
+    <string name="no_summary_found">No summary found.</string>
+    <string name="no_release_date_found">No release date found.</string>
+</resources>

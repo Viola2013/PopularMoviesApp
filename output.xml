@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.0 on win32)" generated="2026-04-09T14:32:22.548538" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot">
+<suite id="s1-s1" name="01 Smoke" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\01_smoke">
+<suite id="s1-s1-s1" name="Smoke Tests" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\01_smoke\smoke_tests.robot">
+<test id="s1-s1-s1-t1" name="Smoke Test: Launch App and Verify Title" line="5">
+<kw name="Open Application To Welcome Screen" owner="resources">
+<kw name="Open Application" owner="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>noReset=false</arg>
+<arg>fullReset=false</arg>
+<doc>Opens a new application to the given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.19/guides/caps/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | No     | alias             |</doc>
+<status status="PASS" start="2026-04-09T14:32:24.174179" elapsed="13.758504"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Popular Movies App</arg>
+<arg>timeout=30s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:32:37.933095" elapsed="0.650319"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:32:24.171898" elapsed="14.411795"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Popular Movies App</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:32:38.584977" elapsed="0.506838"/>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary" type="TEARDOWN">
+<doc>Closes the current application and the webdriver session.</doc>
+<status status="PASS" start="2026-04-09T14:32:39.092930" elapsed="2.012233"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:32:24.169864" elapsed="16.938165"/>
+</test>
+<status status="PASS" start="2026-04-09T14:32:22.918645" elapsed="18.191784"/>
+</suite>
+<status status="PASS" start="2026-04-09T14:32:22.909483" elapsed="18.205505"/>
+</suite>
+<suite id="s1-s2" name="02 Integration" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\02_integration">
+<suite id="s1-s2-s1" name="Integration Tests" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\02_integration\integration_tests.robot">
+<test id="s1-s2-s1-t1" name="Integration Flow: Welcome to Movie Details" line="5">
+<kw name="Open Application To Welcome Screen" owner="resources">
+<kw name="Open Application" owner="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>noReset=false</arg>
+<arg>fullReset=false</arg>
+<doc>Opens a new application to the given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.19/guides/caps/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | No     | alias             |</doc>
+<status status="PASS" start="2026-04-09T14:32:41.128680" elapsed="18.758676"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Popular Movies App</arg>
+<arg>timeout=30s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:32:59.890591" elapsed="0.725493"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:32:41.127631" elapsed="19.489305"/>
+</kw>
+<kw name="Go To Movie Grid" owner="resources">
+<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
+<arg>android=new UiSelector().text("View Popular Movies")</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element specified by the ``locator`` is visible.</doc>
+<status status="PASS" start="2026-04-09T14:33:00.622389" elapsed="0.632749"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2026-04-09T14:33:01.258088" level="INFO">Clicking element 'android=new UiSelector().text("View Popular Movies")'.</msg>
+<arg>android=new UiSelector().text("View Popular Movies")</arg>
+<doc>Clicks the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-09T14:33:01.255483" elapsed="0.979781"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="AppiumLibrary">
+<arg>accessibility_id=Sort</arg>
+<arg>timeout=25s</arg>
+<doc>Waits until the element specified by the ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:02.235568" elapsed="0.266547"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:33:00.621269" elapsed="1.881113"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2026-04-09T14:33:02.507141" level="INFO">Clicking element 'xpath=(//android.view.View[@clickable='true'])[2]'.</msg>
+<msg time="2026-04-09T14:33:03.297605" level="INFO">xpath criteria: (//android.view.View[@clickable='true'])[2]</msg>
+<arg>xpath=(//android.view.View[@clickable='true'])[2]</arg>
+<doc>Clicks the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-09T14:33:02.504295" elapsed="0.793463"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Release Date:</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:03.299002" elapsed="0.980627"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Overview:</arg>
+<arg>timeout=5s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:04.280106" elapsed="0.688829"/>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary" type="TEARDOWN">
+<doc>Closes the current application and the webdriver session.</doc>
+<status status="PASS" start="2026-04-09T14:33:04.970001" elapsed="1.260790"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:32:41.125955" elapsed="25.105349"/>
+</test>
+<status status="PASS" start="2026-04-09T14:32:41.120621" elapsed="25.112508"/>
+</suite>
+<status status="PASS" start="2026-04-09T14:32:41.116808" elapsed="25.118572"/>
+</suite>
+<suite id="s1-s3" name="03 System" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\03_system">
+<suite id="s1-s3-s1" name="System Tests" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\03_system\system_tests.robot">
+<test id="s1-s3-s1-t1" name="Verify App Launch And Welcome Screen" line="5">
+<kw name="Open Application To Welcome Screen" owner="resources">
+<kw name="Open Application" owner="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>noReset=false</arg>
+<arg>fullReset=false</arg>
+<doc>Opens a new application to the given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.19/guides/caps/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | No     | alias             |</doc>
+<status status="PASS" start="2026-04-09T14:33:06.251651" elapsed="11.101195"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Popular Movies App</arg>
+<arg>timeout=30s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:17.353282" elapsed="0.645957"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:33:06.250921" elapsed="11.748987"/>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary" type="TEARDOWN">
+<doc>Closes the current application and the webdriver session.</doc>
+<status status="PASS" start="2026-04-09T14:33:18.000535" elapsed="1.228969"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:33:06.249524" elapsed="12.980861"/>
+</test>
+<status status="PASS" start="2026-04-09T14:33:06.242948" elapsed="12.989822"/>
+</suite>
+<status status="PASS" start="2026-04-09T14:33:06.236975" elapsed="12.997275"/>
+</suite>
+<suite id="s1-s4" name="04 Regression" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\04_regression">
+<suite id="s1-s4-s1" name="Regression Tests" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\04_regression\regression_tests.robot">
+<test id="s1-s4-s1-t1" name="Regression: Verify Sort and About Dialog" line="5">
+<kw name="Open Application To Welcome Screen" owner="resources">
+<kw name="Open Application" owner="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>noReset=false</arg>
+<arg>fullReset=false</arg>
+<doc>Opens a new application to the given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.19/guides/caps/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | No     | alias             |</doc>
+<status status="PASS" start="2026-04-09T14:33:19.250334" elapsed="11.320612"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Popular Movies App</arg>
+<arg>timeout=30s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:30.571441" elapsed="0.625379"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:33:19.249832" elapsed="11.947278"/>
+</kw>
+<kw name="Go To Movie Grid" owner="resources">
+<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
+<arg>android=new UiSelector().text("View Popular Movies")</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element specified by the ``locator`` is visible.</doc>
+<status status="PASS" start="2026-04-09T14:33:31.198463" elapsed="0.704782"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2026-04-09T14:33:31.906912" level="INFO">Clicking element 'android=new UiSelector().text("View Popular Movies")'.</msg>
+<arg>android=new UiSelector().text("View Popular Movies")</arg>
+<doc>Clicks the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-09T14:33:31.903554" elapsed="0.408568"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="AppiumLibrary">
+<arg>accessibility_id=Sort</arg>
+<arg>timeout=25s</arg>
+<doc>Waits until the element specified by the ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:32.312517" elapsed="0.968956"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:33:31.197867" elapsed="2.083875"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="AppiumLibrary">
+<arg>accessibility_id=About</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element specified by the ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:33.282529" elapsed="0.084338"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2026-04-09T14:33:33.372013" level="INFO">Clicking element 'accessibility_id=About'.</msg>
+<arg>accessibility_id=About</arg>
+<doc>Clicks the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-09T14:33:33.369261" elapsed="0.359461"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Usage:</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:33.729917" elapsed="1.211961"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2026-04-09T14:33:34.945473" level="INFO">Clicking element 'android=new UiSelector().text("OK")'.</msg>
+<arg>android=new UiSelector().text("OK")</arg>
+<doc>Clicks the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-09T14:33:34.943145" elapsed="0.262807"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="AppiumLibrary">
+<arg>accessibility_id=Sort</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element specified by the ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:35.207169" elapsed="0.166241"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2026-04-09T14:33:35.375630" level="INFO">Clicking element 'accessibility_id=Sort'.</msg>
+<arg>accessibility_id=Sort</arg>
+<doc>Clicks the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-09T14:33:35.373934" elapsed="1.213640"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="AppiumLibrary">
+<arg>accessibility_id=Sort</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the element specified by the ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:33:36.588730" elapsed="0.118764"/>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary" type="TEARDOWN">
+<doc>Closes the current application and the webdriver session.</doc>
+<status status="PASS" start="2026-04-09T14:33:36.709648" elapsed="1.273350"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:33:19.248603" elapsed="18.734712"/>
+</test>
+<status status="PASS" start="2026-04-09T14:33:19.241861" elapsed="18.742758"/>
+</suite>
+<status status="PASS" start="2026-04-09T14:33:19.235853" elapsed="18.751098"/>
+</suite>
+<status status="PASS" start="2026-04-09T14:32:22.561090" elapsed="75.429600"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robot" id="s1" pass="4" fail="0" skip="0">Robot</stat>
+<stat name="01 Smoke" id="s1-s1" pass="1" fail="0" skip="0">Robot.01 Smoke</stat>
+<stat name="Smoke Tests" id="s1-s1-s1" pass="1" fail="0" skip="0">Robot.01 Smoke.Smoke Tests</stat>
+<stat name="02 Integration" id="s1-s2" pass="1" fail="0" skip="0">Robot.02 Integration</stat>
+<stat name="Integration Tests" id="s1-s2-s1" pass="1" fail="0" skip="0">Robot.02 Integration.Integration Tests</stat>
+<stat name="03 System" id="s1-s3" pass="1" fail="0" skip="0">Robot.03 System</stat>
+<stat name="System Tests" id="s1-s3-s1" pass="1" fail="0" skip="0">Robot.03 System.System Tests</stat>
+<stat name="04 Regression" id="s1-s4" pass="1" fail="0" skip="0">Robot.04 Regression</stat>
+<stat name="Regression Tests" id="s1-s4-s1" pass="1" fail="0" skip="0">Robot.04 Regression.Regression Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

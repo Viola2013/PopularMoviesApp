@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.viola2013.popularmoviesapp-mergeDebugResources-53:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.viola2013.popularmoviesapp-mergeDebugResources-57:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mervi\\.gradle\\caches\\9.4.1\\transforms\\b3a54028f14a067b43eb531293a34093\\transformed\\material-1.13.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\mervi\\.gradle\\caches\\9.4.1\\transforms\\2f246d9b7eabe4bdb14b9d93127c234b\\transformed\\material-1.13.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

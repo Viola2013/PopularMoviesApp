@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.viola2013.popularmoviesapp-mergeDebugResources-53:/values-v30/values-v30.xml",
+            "outputFile": "com.viola2013.popularmoviesapp-mergeDebugResources-57:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mervi\\.gradle\\caches\\9.4.1\\transforms\\41e10fa6debdbed66dc97ed32a913042\\transformed\\jetified-material3-release\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\mervi\\.gradle\\caches\\9.4.1\\transforms\\3d2eb7cadcdfc9768c396c9385e24c40\\transformed\\material3\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

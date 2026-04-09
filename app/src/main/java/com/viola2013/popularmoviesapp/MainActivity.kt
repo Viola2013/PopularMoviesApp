@@ -15,19 +15,27 @@ import androidx.appcompat.app.AlertDialog
 
 class MainActivity : ComponentActivity() {
 
+    private lateinit var connectivityObserver: ConnectivityObserver
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+        connectivityObserver = NetworkConnectivityObserver(applicationContext)
         
         setContent {
             val context = LocalContext.current
-            val viewModel: MovieViewModel = viewModel(factory = MovieViewModelFactory(BuildConfig.TMDB_API_KEY))
-            val movies by viewModel.movies.collectAsStateWithLifecycle()
+            val viewModel: MovieViewModel = viewModel(
+                factory = MovieViewModelFactory(application, BuildConfig.TMDB_API_KEY, connectivityObserver)
+            )
+            val uiState by viewModel.uiState.collectAsStateWithLifecycle()
             val currentSort by viewModel.sortMethod.collectAsStateWithLifecycle()
+            val networkStatus by viewModel.networkStatus.collectAsStateWithLifecycle()
 
             PopularMoviesAppTheme {
                 MainScreen(
-                    movies = movies,
+                    uiState = uiState,
+                    networkStatus = networkStatus,
                     onMovieClick = { movie ->
                         val intent = Intent(context, DetailsActivity::class.java).apply {
                             putExtra(getString(R.string.parcel_movie), movie)
@@ -40,6 +48,9 @@ class MainActivity : ComponentActivity() {
                     currentSort = currentSort,
                     onAboutClick = {
                         showAboutDialog()
+                    },
+                    onRetry = {
+                        viewModel.fetchMovies()
                     }
                 )
             }

@@ -31,7 +31,8 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Сподели со"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Сподели со <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Собери"</string>
-    <string msgid="389117264260014992" name="autofill">"Автоматско пополнување"</string>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Автоматско пополнување"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Автоматско пополнување"</string>
     <string name="bottomsheet_action_collapse">Соберете го долниот лист</string>
     <string name="bottomsheet_action_expand">Проширете го долниот лист</string>
     <string name="bottomsheet_action_expand_halfway">Прошири до половина</string>
@@ -101,10 +102,15 @@
     <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"Собрано"</string>
     <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"Проширено"</string>
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Вклучување/исклучување паѓачко мени"</string>
+    <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Собери го алатникот"</string>
+    <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Прошири го алатникот"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Пребарување"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Отфрли"</string>
+    <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Предупредување"</string>
     <string msgid="7655536806087401899" name="m3c_suggestions_available">"Предлозите се наведени подолу"</string>
+    <string msgid="409352516511718051" name="m3c_time_input_dialog_title">"Внесете време"</string>
     <string msgid="2786685010796619560" name="m3c_time_picker_am">"прет."</string>
+    <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Изберете време"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Час"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d часа"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Изберете час"</string>
@@ -116,8 +122,12 @@
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"за минути"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Изберете претпладне или попладне"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"попл."</string>
+    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Префрлете се на „Режим за внесување текст“ за да внесете време"</string>
+    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Префрлете се на „Режим за внесување на часовникот“"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Прикажи совет за алатка"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Совет за алатка"</string>
+    <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Затворање на шината"</string>
+    <string msgid="8350283435461615411" name="m3c_wide_navigation_rail_pane_title">"Шина за навигација"</string>
     <string name="material_clock_toggle_content_description">Изберете претпладне или попладне</string>
     <string name="material_hour_24h_suffix">%1$s часа</string>
     <string name="material_hour_selection">Изберете час</string>
@@ -134,6 +144,7 @@
     <string name="material_timepicker_pm">по.</string>
     <string name="material_timepicker_select_time">Изберете време</string>
     <string name="material_timepicker_text_input_mode_description">Префрлете се на режимот за внесување текст за да внесете време.</string>
+    <string msgid="8471891128988107974" name="mc2_snackbar_pane_title">"Известување"</string>
     <string name="mtrl_badge_numberless_content_description">Ново известување</string>
     <string name="mtrl_checkbox_state_description_checked">Штиклирано</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Делумно штиклирано</string>

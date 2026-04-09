@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.0 on win32)" generated="2026-04-09T14:40:38.714441" rpa="false" schemaversion="5">
+<suite id="s1" name="01 Smoke" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\01_smoke">
+<suite id="s1-s1" name="Smoke Tests" source="C:\Users\mervi\AndroidStudioProjects\PopularMoviesApp\app\tests\robot\01_smoke\smoke_tests.robot">
+<test id="s1-s1-t1" name="Smoke Test: Launch App and Verify Title" line="5">
+<kw name="Open Application To Welcome Screen" owner="resources">
+<kw name="Open Application" owner="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>noReset=false</arg>
+<arg>fullReset=false</arg>
+<doc>Opens a new application to the given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.19/guides/caps/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | No     | alias             |</doc>
+<status status="PASS" start="2026-04-09T14:40:39.524452" elapsed="15.399861"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Popular Movies App</arg>
+<arg>timeout=30s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:40:54.924767" elapsed="0.692405"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:40:39.522384" elapsed="16.095025"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Popular Movies App</arg>
+<arg>timeout=15s</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2026-04-09T14:40:55.618563" elapsed="0.507362"/>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary" type="TEARDOWN">
+<doc>Closes the current application and the webdriver session.</doc>
+<status status="PASS" start="2026-04-09T14:40:56.126871" elapsed="1.237944"/>
+</kw>
+<status status="PASS" start="2026-04-09T14:40:39.521221" elapsed="17.843925"/>
+</test>
+<status status="PASS" start="2026-04-09T14:40:38.822636" elapsed="18.543624"/>
+</suite>
+<status status="PASS" start="2026-04-09T14:40:38.717913" elapsed="18.649992"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="01 Smoke" id="s1" pass="1" fail="0" skip="0">01 Smoke</stat>
+<stat name="Smoke Tests" id="s1-s1" pass="1" fail="0" skip="0">01 Smoke.Smoke Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

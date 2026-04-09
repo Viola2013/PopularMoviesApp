@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.viola2013.popularmoviesapp-mergeDebugResources-53:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.viola2013.popularmoviesapp-mergeDebugResources-57:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mervi\\.gradle\\caches\\9.4.1\\transforms\\e67ae6570c1ac360ca82f8231570fc77\\transformed\\appcompat-1.7.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\mervi\\.gradle\\caches\\9.4.1\\transforms\\d9c368bb563442729043461d3707516a\\transformed\\appcompat-1.7.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

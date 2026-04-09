@@ -10,7 +10,7 @@ import androidx.core.net.toUri
 class MovieRepository(private val apiKey: String) {
 
     suspend fun fetchMovies(sortMethod: String): List<Movie>? = withContext(Dispatchers.IO) {
-        val tmdbBaseUrl = "https://api.themoviedb.org/3/discover/movie?"
+        val tmdbBaseUrl = "https://api.themoviedb.org/3/discover/movie"
         val sortByParam = "sort_by"
         val apiKeyParam = "api_key"
 

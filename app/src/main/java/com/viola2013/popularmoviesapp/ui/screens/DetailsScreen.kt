@@ -8,7 +8,6 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
@@ -84,13 +83,13 @@ fun DetailsScreen(
                     val formattedDate = movie.releaseDate?.let { date ->
                         try {
                             DateTimeHelper.getLocalizedDate(context, date, movie.getDateFormat())
-                        } catch (e: ParseException) {
+                        } catch (_: ParseException) {
                             date
                         }
                     } ?: stringResource(R.string.no_release_date_found)
 
                     Text(
-                        text = formattedDate,
+                        text = "Release Date: $formattedDate",
                         style = MaterialTheme.typography.bodyLarge
                     )
 
@@ -105,7 +104,7 @@ fun DetailsScreen(
                 Spacer(modifier = Modifier.height(16.dp))
 
                 Text(
-                    text = stringResource(R.string.app_description), // Using description as label for now
+                    text = "Overview:",
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold
                 )
